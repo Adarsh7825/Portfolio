@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# production build
+/build
+
+# development environment
+/.idea
+/.vscode
+/.DS_Store
+
+# local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm debug log
+npm-debug.log*
+.vercel

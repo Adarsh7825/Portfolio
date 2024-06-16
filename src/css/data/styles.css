@@ -1,0 +1,15 @@
+:root {
+	/* ------- colors ------- */
+  --primary-color: #eaeaea;
+  --secondary-color: #b5e853;
+	--tertiary-color: #185B33;
+	--quaternary-color: #A3A2A4;
+	--quinary-color: #7B7B83;
+  --background-color: #151515;
+	--link-color: #63c0f5;
+	/* ---------------------- */
+}
+
+body {
+	background: var(--backgroun-color) url("../../../public/bkg.png") 0 0;
+}

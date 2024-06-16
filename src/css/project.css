@@ -1,0 +1,102 @@
+@import "../css/data/styles.css";
+
+.project {
+	border-radius: 20px;
+	opacity: 0.8;
+	height: 100%;
+	background-color: hsl(179, 100%, 0%);
+	position: relative;
+}
+
+.project a {
+	text-decoration: none;
+}
+
+.project:hover {
+	background: hsl(179, 97%, 1%);
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+	box-shadow: 20px;
+}
+
+.project:hover .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project-container {
+	padding: 30px;
+}
+
+.project-logo {
+	width: 30px;
+}
+
+.project-logo img {
+	width: 100%;
+}
+
+.project-title {
+	color: var(--primary-color);
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.project-
+
+.project-description {
+	color: var(--secondary-color);
+	border: 10px ;
+}
+
+a {
+	color: var(--secondary-color);
+}
+
+.project-link {
+	display: flex;
+	align-items: center;
+	color: var(--link-color);
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.project-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+
+	position: absolute;
+	bottom: 25px; /* Adjust the top position as needed */
+	left: 26px; /* Adjust the right position as needed */
+}
+
+.project-link-text {
+	position: absolute;
+	bottom: 25px; /* Adjust the top position as needed */
+	left: 30px; /* Adjust the right position as needed */
+	
+	padding-left: 11%;
+	font-weight: 700;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+	.project {
+		height: 300px;
+	}
+
+	.project-description {
+    font-size: 14px; /* Adjust as needed */
+
+    /* If you want to limit the number of lines instead of characters, you can use these styles */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7; /* Number of lines to display before adding an ellipsis */
+    -webkit-box-orient: vertical;
+  }
+}

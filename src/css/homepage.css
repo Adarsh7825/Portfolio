@@ -1,0 +1,108 @@
+@import "../css/data/styles.css";
+
+.homepage-container {
+  padding-top: 155px;
+}
+
+.homepage-intro {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.homepage-intro-left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.homepage-title {
+	width: 85% !important;
+	font: var(--primary-font) !important;
+	font-size: 48px !important;
+}
+
+.homepage-subtitle {
+	width: 85% !important;
+	font: var(--primary-font) !important;
+}
+
+.homepage-socials {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.homepage-social-icon {
+	padding-right: 20px;
+	font-size: 36px;
+	transition: color 0.2s ease-in-out;
+	color: var(--primary-color);
+}
+
+.homepage-social-icon:hover {
+	color: var(--quinary-color);
+}
+
+.homepage-intro-right-side {
+	display: flex;
+	align-items: center;
+}
+
+.homepage-image-container {
+	width: 370px;
+	height: 370px;
+}
+
+.homepage-image-wrapper {
+	overflow: hidden;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.homepage-image-wrapper img {
+	width: 100%;
+}
+
+@media (max-width: 1024px) {
+	.homepage-intro {
+		flex-direction: column;
+	}
+
+	.homepage-intro-left-side {
+		display: flex;
+		flex-direction: column; /* Changed: set direction to column */
+		align-items: flex-start;
+		width: 100%;
+		order: 2;
+	}
+
+	.homepage-title {
+		width: 100% !important;
+		margin-top: 20px;
+		order: 2;
+	}
+
+	.homepage-subtitle {
+		width: 100% !important;
+		margin-top: 10px;
+		order: 3;
+	}
+
+	.homepage-intro-right-side {
+		width: 100%;
+		order: 1;
+	}
+
+	.homepage-image-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 10px;
+		order: 1;
+	}
+
+	.homepage-projects {
+		flex-basis: auto;
+	}
+}
