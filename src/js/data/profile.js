@@ -37,6 +37,7 @@ const INFO = {
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "https://interrospot.vercel.app",
 			link: "https://github.com/Adarsh7825/InterroSpot",
+			videolink: ""
 		},
 		{
 			title: "Ecommerce",
@@ -44,6 +45,7 @@ const INFO = {
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "https://effortless-crepe-7bad84.netlify.app/",
 			link: "https://github.com/Adarsh7825/Ecommerce",
+			videolink: ""
 		},
 		{
 			title: "MLSC Website",
@@ -51,6 +53,7 @@ const INFO = {
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "https://mlscvcet.web.app",
 			link: "https://github.com/Adarsh7825/MLSC-Website",
+			videolink: ""
 		},
 	]
 };

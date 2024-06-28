@@ -1,0 +1,24 @@
+@import "../css/data/styles.css";
+
+.project-detail {
+    padding: 20px;
+    background-color: hsl(179, 100%, 0%);
+
+}
+
+.project-detail h1 {
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+.project-detail p {
+    margin: 20px 0;
+    color: var(--secondary-color);
+}
+
+.project-detail a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: underline;
+    color: var(--link-color);
+}

@@ -7,6 +7,7 @@ import Projects from "./js/pages/projects";
 import Articles from "./js/pages/articles";
 import ReadArticle from "./js/pages/readArticle";
 import Notfound from "./js/pages/404";
+import ProjectDetail from "./js/pages/ProjectDetail";
 import './css/App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/articles/" element={<Articles />} />
         <Route path="/article/:slug" element={<ReadArticle />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/project/:projectName" element={<ProjectDetail />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
     </div>

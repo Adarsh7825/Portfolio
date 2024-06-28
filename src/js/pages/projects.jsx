@@ -1,7 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
-import Footer from "../components/footer"
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import MainProjects from "../components/mainprojects";
 
@@ -11,7 +12,6 @@ import SEO from "../data/seo";
 import "../../css/projects.css";
 
 const Projects = () => {
-
   const currentSEO = SEO.find((item) => item.page === "projects");
 
   return (
@@ -32,13 +32,14 @@ const Projects = () => {
               {INFO.projectspage.description}
             </div>
             <div className="homepage-projects">
-              <div className="midtitle homepage-midtitle">
-              </div>
+              <div className="midtitle homepage-midtitle"></div>
+              <Link to={`/project/${INFO.projectspage.title}`}>
+              </Link>
               <MainProjects />
             </div>
           </div>
           <div className="page-footer">
-          <Footer />
+            <Footer />
           </div>
         </div>
       </div>

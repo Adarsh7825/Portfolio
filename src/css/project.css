@@ -44,11 +44,9 @@
 	font-weight: 700;
 }
 
-.project-
-
-.project-description {
+.project- .project-description {
 	color: var(--secondary-color);
-	border: 10px ;
+	border: 10px;
 }
 
 a {
@@ -68,15 +66,19 @@ a {
 	font-size: 13px;
 
 	position: absolute;
-	bottom: 25px; /* Adjust the top position as needed */
-	left: 26px; /* Adjust the right position as needed */
+	bottom: 25px;
+	/* Adjust the top position as needed */
+	left: 26px;
+	/* Adjust the right position as needed */
 }
 
 .project-link-text {
 	position: absolute;
-	bottom: 25px; /* Adjust the top position as needed */
-	left: 30px; /* Adjust the right position as needed */
-	
+	bottom: 25px;
+	/* Adjust the top position as needed */
+	left: 30px;
+	/* Adjust the right position as needed */
+
 	padding-left: 11%;
 	font-weight: 700;
 
@@ -91,12 +93,14 @@ a {
 	}
 
 	.project-description {
-    font-size: 14px; /* Adjust as needed */
+		font-size: 14px;
+		/* Adjust as needed */
 
-    /* If you want to limit the number of lines instead of characters, you can use these styles */
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 7; /* Number of lines to display before adding an ellipsis */
-    -webkit-box-orient: vertical;
-  }
+		/* If you want to limit the number of lines instead of characters, you can use these styles */
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 7;
+		/* Number of lines to display before adding an ellipsis */
+		-webkit-box-orient: vertical;
+	}
 }
